@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
@@ -83,4 +89,99 @@ footer {
 .footer-content p {
   margin: 0;
   font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.menu {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  width: 200px;
+}
+
+.menu h1 {
+  margin-bottom: 20px;
+}
+
+.menu nav ul {
+  list-style: none;
+}
+
+.menu nav ul li {
+  margin-bottom: 10px;
+}
+
+.menu nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
 }
